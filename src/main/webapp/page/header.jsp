@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<header id="header">
 <!-- Header Top Bar Start -->
 <div class="top-bar">
 	<div class="slidedown collapse">
@@ -29,6 +30,7 @@
 <!-- Main Header Start -->
 <div class="main-header">
 	<div class="container">
+		<!-- 当屏幕过小时隐藏(手机，pad端) -->
 		<!-- TopNav Start -->
 		<div class="topnav navbar-header">
 			<a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
@@ -39,8 +41,8 @@
 		<!-- Logo Start -->
         <div class="logo pull-left">
         	<h1>
-            	<a href="index-2.html">
-            		<img src="img/logo.png" alt="pixma" width="125" height="60">
+            	<a href="index.jsp">
+            		<img src="${basePath}/img/logo.png" alt="jqk" width="125" height="60">
             	</a>
             </h1>
 		</div>
@@ -56,7 +58,7 @@
 		<nav class="collapse navbar-collapse menu">
 			<ul class="nav navbar-nav sf-menu">
 			<li>
-				<a id="current" href="index-2.html">
+				<a id="current" href="index.jsp">
 					Home
 					<span class="sf-sub-indicator">
 					<i class="icon-angle-down "></i>
@@ -151,3 +153,4 @@
 	</div>
 </div>
 <!-- Main Header End -->
+</header>

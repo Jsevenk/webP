@@ -45,10 +45,7 @@
 
       <div class="wrap">
          <!-- Header Start -->
-         <header id="header">
          <%@include file="header.jsp" %>
-            
-         </header>
          <!-- Header End --> 
          <!-- Content Start -->
          <div id="main">
