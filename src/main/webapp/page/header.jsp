@@ -59,16 +59,8 @@
 			<ul class="nav navbar-nav sf-menu">
 			<li>
 				<a id="current" href="index.jsp">
-					Home
-					<span class="sf-sub-indicator">
-					<i class="icon-angle-down "></i>
-					</span>
+					主页
 				</a>
-				<ul>
-					<li><a href="index-3.html" class="sf-with-ul">Home 2</a></li>
-					<li><a href="index-4.html" class="sf-with-ul">Home 3</a></li>
-					<li><a href="index-nivo.html" class="sf-with-ul">Nivo Slider</a></li>
-				</ul>
 			</li>
 			<li>
 				<a href="#" class="sf-with-ul">
@@ -78,9 +70,9 @@
 					</span>
 				</a>
 				<ul>
-					<li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
-					<li><a href="icons.html" class="sf-with-ul">Icons</a></li>
-					<li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
+					<li><a href="${basePath}/page/features/shortcodes.jsp" class="sf-with-ul">Shortcodes</a></li>
+					<li><a href="${basePath}/page/features/icons.jsp" class="sf-with-ul">Icons</a></li>
+					<li><a href="${basePath}/page/features/pricing-table.jsp" class="sf-with-ul">Pricing Tables</a></li>
 					<li>
 						<a href="#" class="sf-with-ul"> 
 							Third Level Menu 
