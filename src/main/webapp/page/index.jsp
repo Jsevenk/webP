@@ -55,7 +55,8 @@
                   <ul>
                      <!-- THE FIRST SLIDE -->
                      <li data-delay="6000" data-masterspeed="300" data-transition="fade">
-                        <div class="slotholder"><img src="img/slider/slider-bg-1.jpg" data-fullwidthcentering="on" alt="Pixma"></div>
+                     	<!-- 背景图片 -->
+                        <div class="slotholder"><img src="${basePath}/img/slider/slider-bg-1.jpg" data-fullwidthcentering="on" alt="Pixma"></div>
                         <div class="caption modern_big_bluebg h1 lft tp-caption start"
                            data-x="40"
                            data-y="85"
@@ -64,7 +65,7 @@
                            data-start="1000"
                            data-easing="easeOutQuint"
                            data-endeasing="easeOutQuint">
-                           <h3>PREMIUM BUSINESS TEMPLATE</h3>
+                           <h3>欢迎来到我的世界</h3>
                         </div>
                         <div class="caption list_slide lfb tp-caption start" 
                            data-easing="easeOutExpo" 
@@ -74,7 +75,7 @@
                            data-x="40">
                            <div class="list-slide">
                               <i class="icon-camera slide-icon"></i>
-                              <h5 class="dblue"> 10 predefined color skins </h5>
+                              <h5 class="dblue">可以尽情地截图留念</h5>
                            </div>
                         </div>
                         <div class="caption list_slide lfb tp-caption start" 
@@ -85,7 +86,7 @@
                            data-x="40">
                            <div class="list-slide">
                               <i class="icon-search slide-icon"></i>
-                              <h5 class="dblue"> SEO optimized template files </h5>
+                              <h5 class="dblue"> 搜索有意思的文章 </h5>
                            </div>
                         </div>
                         <div class="caption list_slide lfb tp-caption start" 
@@ -96,7 +97,7 @@
                            data-x="40">
                            <div class="list-slide">
                               <i class="icon-code slide-icon"></i>
-                              <h5 class="dblue"> Working Ajax Contact Form </h5>
+                              <h5 class="dblue"> 不断进化 </h5>
                            </div>
                         </div>
                         <div class="caption lfb caption_button_1 fadeout tp-caption start"
@@ -107,7 +108,8 @@
                            data-start="2700"
                            data-hoffset="-70"
                            data-easing="easeOutExpo">
-                           <a class="btn-special hidden-xs btn-grey" href="#">Learn More</a>
+                           <a class="btn-special hidden-xs btn-grey" href="#">了解更多</a>
+                           <!-- 链接：论坛博客(个人主页) -->
                         </div>
                         <div class="caption lfb caption_button_2 fadeout tp-caption start"
                            data-x="210"
@@ -117,12 +119,15 @@
                            data-start="2900"
                            data-hoffset="70"
                            data-easing="easeOutExpo">
-                           <a class="btn-special hidden-xs btn-color" href="#">Buy Now</a>
+                           <a class="btn-special hidden-xs btn-color" href="#">加入我们</a>
+                           <!-- 链接：注册页面 -->
                         </div>
                      </li>
                      <!-- THE RESPONSIVE SLIDE -->
                      <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
-                        <img src="img/slider/slider-bg-2.jpg" data-fullwidthcentering="on" alt="">
+                     	<!-- 背景图片 -->
+                        <img src="${basePath}/img/slider/slider-bg-2.jpg" data-fullwidthcentering="on" alt="">
+                        <!-- 右侧文字 -->
                         <div class="caption large_text sft"
                            data-x="660"
                            data-y="54"
@@ -196,13 +201,14 @@
                               <h5> Bootstrap Framework </h5>
                            </div>
                         </div>
+                        <!-- 左侧图片 -->
                         <div class="caption lfl"
                            data-x="53"
                            data-y="30"
                            data-speed="300"
                            data-start="1400"
                            data-easing="easeOutExpo">
-                           <img src="img/slider/responsive-imac.png" alt="iMac Responsive">
+                           <img src="${basePath}/img/slider/responsive-imac.png" alt="iMac Responsive">
                         </div>
                         <div class="caption lfl"
                            data-x="323"
@@ -210,7 +216,7 @@
                            data-speed="300"
                            data-start="1500"
                            data-easing="easeOutExpo">
-                           <img src="img/slider/responsive-ipad.png" alt="iPad Responsive">
+                           <img src="${basePath}/img/slider/responsive-ipad.png" alt="iPad Responsive">
                         </div>
                         <div class="caption lfl"
                            data-x="472"
@@ -218,23 +224,24 @@
                            data-speed="300"
                            data-start="1600"
                            data-easing="easeOutExpo">
-                           <img src="img/slider/responsive-iphone.png" alt="iPhone Responsive">
+                           <img src="${basePath}/img/slider/responsive-iphone.png" alt="iPhone Responsive">
                         </div>
                      </li>
                   </ul>
                </div>
             </div>
             <!-- Slider End--> 
-            <!-- Slogan Start-->
+            <!-- Slogan(口号) Start-->
             <div class="slogan bottom-pad-small">
                <div class="container">
                   <div class="row">
                      <div class="slogan-content">
                         <div class="col-lg-9 col-md-9">
-                           <h2 class="slogan-title">We design and develop the best website’s for customers!</h2>
+                           <h2 class="slogan-title">我们的世界一切皆有可能!</h2>
                         </div>
                         <div class="col-lg-3 col-md-3">
                            <div class="get-started">
+                              <!-- 添加onclick方法,效果：balabalabala -->
                               <button class="btn btn-special btn-color pull-right">Get Started Now</button>
                            </div>
                         </div>
