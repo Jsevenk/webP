@@ -132,10 +132,10 @@
 					</span>
 				</a>
 				<ul>
-					<li><a href="blog-left-sidebar.html" class="sf-with-ul">Left Sidebar Blog</a></li>
-					<li><a href="blog-right-sidebar.html" class="sf-with-ul">Right Sidebar Blog</a></li>
-					<li><a href="blog-small.html" class="sf-with-ul">Small Blog</a></li>
-					<li><a href="single-post.html" class="sf-with-ul">Single Post</a></li>
+					<li><a href="${basePath}/page/blog/blog-left-sidebar.jsp" class="sf-with-ul">Left Sidebar Blog</a></li>
+					<li><a href="${basePath}/page/blog/blog-right-sidebar.jsp" class="sf-with-ul">Right Sidebar Blog</a></li>
+					<li><a href="${basePath}/page/blog/blog-small.jsp" class="sf-with-ul">Small Blog</a></li>
+					<li><a href="${basePath}/page/blog/single-post.jsp" class="sf-with-ul">Single Post</a></li>
 				</ul>
 			</li>
 			<li><a href="${basePath}/page/features/contact.jsp">Contact</a></li>
