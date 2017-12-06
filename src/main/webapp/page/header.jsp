@@ -96,17 +96,17 @@
 					</span>
 				</a>
 				<ul>
-					<li><a href="about.html" class="sf-with-ul">About Us</a></li>
-					<li><a href="services.html" class="sf-with-ul">Services</a></li>
-					<li><a href="testimonials.html" class="sf-with-ul">Testimonials</a></li>
-					<li><a href="full-width.html" class="sf-with-ul">Full Width Page</a></li>
-					<li><a href="page-left-sidebar.html" class="sf-with-ul">Left Sidebar</a></li>
-					<li><a href="page-right-sidebar.html" class="sf-with-ul">Right Sidebar</a></li>
-					<li><a href="page-left-navigation.html" class="sf-with-ul">Left Navigation</a></li>
-					<li><a href="page-right-navigation.html" class="sf-with-ul">Right Navigation</a></li>
-					<li><a href="faq.html" class="sf-with-ul">FAQ</a></li>
-					<li><a href="page-404.html" class="sf-with-ul">404 Page</a></li>
-					<li><a href="sitemap.html" class="sf-with-ul">Sitemap</a></li>
+					<li><a href="${basePath}/page/pages/about.jsp" class="sf-with-ul">About Us</a></li>
+					<li><a href="${basePath}/page/pages/services.jsp" class="sf-with-ul">Services</a></li>
+					<li><a href="${basePath}/page/pages/testimonials.jsp" class="sf-with-ul">Testimonials</a></li>
+					<li><a href="${basePath}/page/pages/full-width.jsp" class="sf-with-ul">Full Width Page</a></li>
+					<li><a href="${basePath}/page/pages/page-left-sidebar.jsp" class="sf-with-ul">Left Sidebar</a></li>
+					<li><a href="${basePath}/page/pages/page-right-sidebar.jsp" class="sf-with-ul">Right Sidebar</a></li>
+					<li><a href="${basePath}/page/pages/page-left-navigation.jsp" class="sf-with-ul">Left Navigation</a></li>
+					<li><a href="${basePath}/page/pages/page-right-navigation.jsp" class="sf-with-ul">Right Navigation</a></li>
+					<li><a href="${basePath}/page/pages/faq.jsp" class="sf-with-ul">FAQ</a></li>
+					<li><a href="${basePath}/page/pages/page-404.jsp" class="sf-with-ul">404 Page</a></li>
+					<li><a href="${basePath}/page/pages/sitemap.jsp" class="sf-with-ul">Sitemap</a></li>
 				</ul>
 			</li>
 			<li>
@@ -138,7 +138,7 @@
 					<li><a href="single-post.html" class="sf-with-ul">Single Post</a></li>
 				</ul>
 			</li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="${basePath}/page/features/contact.jsp">Contact</a></li>
 			</ul>
 		</nav>
 		<!-- Menu End --> 
