@@ -117,11 +117,11 @@
 					</span>
 				</a>
 				<ul>
-					<li><a href="portfolio-two.html" class="sf-with-ul">2 Column</a></li>
-					<li><a href="portfolio-three.html" class="sf-with-ul">3 Column</a></li>
-					<li><a href="portfolio-four.html" class="sf-with-ul">4 Column</a></li>
-					<li><a href="portfolio-single.html" class="sf-with-ul">Single Item Page</a></li>
-					<li><a href="portfolio-single-big.html" class="sf-with-ul">Single Large Item Page</a></li>
+					<li><a href="${basePath}/page/portfolio/portfolio-two.jsp" class="sf-with-ul">2 Column</a></li>
+					<li><a href="${basePath}/page/portfolio/portfolio-three.jsp" class="sf-with-ul">3 Column</a></li>
+					<li><a href="${basePath}/page/portfolio/portfolio-four.jsp" class="sf-with-ul">4 Column</a></li>
+					<li><a href="${basePath}/page/portfolio/portfolio-single.jsp" class="sf-with-ul">Single Item Page</a></li>
+					<li><a href="${basePath}/page/portfolio/portfolio-single-big.jsp" class="sf-with-ul">Single Large Item Page</a></li>
 				</ul>
 			</li>
 			<li>
